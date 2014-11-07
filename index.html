@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript Object</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="object.js"></script>
+</head>
+
+<body>
+  <h1>JavaScript Address Object</h1>
+  <div class='address-form'>
+    <ul>
+      <li> 
+          <label for="first_name">First Name: </label>
+          <input id="first_name" name="first_name" required type="text">
+      </li>
+      <li> 
+          <label for="last_name">Last Name: </label>
+          <input id="last_name" name="first_name" required type="text">
+      </li>
+      <li> 
+          <label for="address_ln_1">Address Line 1: </label>
+          <input id="address_ln_1" name="address_ln_1" required type="text"> 
+      </li>
+      <li> 
+          <label for="address_ln_2">Address Line 2: </label>
+          <input id="address_ln_2" name="address_ln_2" type="text"> 
+      </li>
+      <li> 
+          <label for="city">City: </label>
+          <input id="city" name="city" required type="text"> 
+      </li>
+      <li> 
+          <label for="state">State: </label>
+          <input id="state" name="state" required type="text"> 
+      </li>
+      <li> 
+          <label for="zip_code">ZIP: </label>
+          <input id="zip_code" name="zip_code" required type="text"> 
+      </li>
+      <li>
+        <button type='button' onClick="createAddress()">Create Address</button>
+      </li> 
+    </ul>
+  </div>
+  <div id='output'>
+  </div>
+
+</body>
+</html>
